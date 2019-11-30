@@ -28,7 +28,7 @@ client
   .query({
     query: gql`
       {
-        getCollectionsByTitle(title: "hats") {
+        collections {
           id
           title
           items {
